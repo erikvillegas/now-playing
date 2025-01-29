@@ -4,8 +4,7 @@ async function fetchMovies() {
 
   const options = {
     headers: {
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMmU0NzQ3YjI3OGE1Njg0YWM2MDZiYTcyN2Q5MTgxNCIsIm5iZiI6MTczODE3NTI4OS42MTksInN1YiI6IjY3OWE3MzM5MDRjOGRjMzQ3Y2ZiYjU1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.j9Ec6-o8gdfShfh6zk2K7tdznG6NSzOh_JkySoH9LiQ",
+      Authorization: "Bearer TOKEN",
     },
   };
 
