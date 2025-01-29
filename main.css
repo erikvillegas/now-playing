@@ -1,0 +1,19 @@
+body {
+  margin: 30px;
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.poster-image {
+  width: 150px;
+  cursor: pointer;
+}
+
+.poster-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
